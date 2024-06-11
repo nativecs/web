@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<!-- Next add HTML stylesheet in the header for adding CSS elements -->
+<head>
+<title>KS3 Year 8 - NativeCS</title>
+<link rel=“icon” href=”/images/favicon.ico” type=“image/x-icon”>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: scroll;
+  position: absolute;
+  overflow-x: hidden;
+  width: 100%;
+
+.topnav {
+  overflow: hidden;
+  background-color: #483d8b;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ff6600;
+  color: white;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ff6600;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+}
+.header {
+  padding: 150px; /* some padding */
+  text-align: center; /* center the text */
+  background-image: url("images/banner-year8.png");
+  background-position:bottom;
+  color: white; /* white text color */
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 40px;
+}
+
+.footer {
+  font-size: 12px;
+  position:sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+a:link {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+a:visited {
+  color: inherit;
+}
+
+
+div.page-content {
+  width: 100%;
+  max-width: 95%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+
+}
+
+div.page-content-1 {
+  width: 100%;
+  max-width: 95%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: auto;
+}
+
+div.page-content-2 {
+  width: 100%;
+  max-width: 95%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+</style>
+</head>
+<!-- Stylesheet should be included in the header section -->
+
+
+
+<body>
+<div class="header">
+</div>
+
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="About.html">About</a> 
+  <div class ="dropdown">
+    <button class="dropbtn">KS3</button>
+    <div class="dropdown-content">
+      <a href="y7.html">Year 7</a>
+      <a href="y8.html">Year 8</a>
+      <a href="y9.html">Year 9</a>
+    </div>
+  </div>
+
+  <div class ="dropdown">
+    <button class="dropbtn">GCSE</button>
+    <div class="dropdown-content">
+      <a href="y10.html">Year 10</a>
+      <a href="y11.html">Year 11</a>
+    </div>
+  </div>
+
+<div class ="dropdown">
+    <button class="dropbtn">Programming</button>
+    <div class="dropdown-content">
+      <a href="python.html">Python</a>
+      <a href="html.html">HTML</a>
+      <a href="css.html">CSS</a>
+      <a href="js.html">JavaScript</a>
+    </div>
+  </div>
+  <a href="ai.html">AI</a>
+  <a href="resources.html">Resources</a>
+</div>
+
+
+<div class ="page-content">
+  <center><h2>Units of Work - Year 8</h2></center>
+  <p><img src="images/y8-float.png" width="300px" height="300px" style="float:left" padding-right="30" class="image">
+  <p>Building on skills, based on year 7, the computing curriculum evolves in deepening the student's understanding of the subject along with building functional digital literacy skills</p>
+  <strong><h3>Unit 1 – Word Processing and Presentation Skills</h3></strong>
+  <p>Students will learn to use various word processing software to create, edit, and format documents. They will explore different document formats such as .docx, .pdf, and .rtf, understanding their uses and advantages</p>
+  <p><strong>Presentation Skills: </strong>Students will develop skills to create engaging and effective presentations using software like PowerPoint or Google Slides. They will learn about slide design, use of multimedia, and effective communication techniques.</p>
+  <strong><h3>Unit 2 – Dealing with Social Media</h3></strong>
+  <p><strong>Safe use: </strong> Understanding potential risks associated with social media use, including privacy concerns and online predators.</p>
+  <p><strong>Content feed: </strong>Learning how content algorithms work and how they influence the information users see.</p>
+  <p><strong>Contacts: </strong>Recognizing the importance of managing social media contacts and understanding the risks of interacting with strangers online.</p>
+  <p><strong>Identity: </strong>Techniques to verify the identity of online profiles and avoid scams or fake accounts.</p>
+  <strong><h3>Unit 3 – Components & Function of Computers</h3></strong>
+  <p><strong>Types of Storage: </strong>Exploring different types of storage devices, such as HDDs, SSDs, and cloud storage. Analysing the advantages and disadvantages of various storage solutions in terms of speed, cost, and durability.</p>
+  <p><strong>Binary and Hexadecimal: </strong>Introduction to the binary and hexadecimal number systems, understanding their use in computing for data representation and memory addressing.</p>
+  <strong><h3>Unit 4 – Imaging and Graphics</h3></strong>
+  <p><strong>Image File Formats: </strong>Understanding different image file formats (JPEG, PNG, GIF, etc.) and their appropriate uses based on quality, compression, and application.</p>
+  <p><strong>Display Formats: </strong>Learning about display formats, resolutions, and how image quality is affected by different screen types and settings.</p>
+  <p><strong>Bitmaps vs. Vector Graphics: </strong>Comparing bitmap and vector graphics, understanding their differences, uses, and how they are created and edited.</p>
+  <p><strong>Hex Representation of Colours: </strong>Understanding how colours are represented in computing using hexadecimal values and how to use these in graphic design and web development.</p>
+  <strong><h3>Unit 5 – Environmental and Social Issues of Technology</h3></strong>
+  <p><strong>Carbon-Footprint: </strong>Analysing the environmental impact of technology use and production, including energy consumption and e-waste.</p>
+  <p><strong>AI: </strong>Exploring the ethical implications and societal impacts of artificial intelligence, including job displacement and privacy concerns.</p>
+  <p><strong>Ethics: </strong>Understanding ethical issues related to technology, such as data privacy, surveillance, and the digital divide.</p>
+  <p><strong>Automated Decision Making: </strong>Examining the role of algorithms in decision-making processes and the potential biases and consequences of automated systems.</p>
+  <p><strong>High-Power Devices and Low-Power Devices: </strong>Comparing the energy consumption of high-power and low-power devices and discussing the implications for sustainability and efficiency.</p>
+  <strong><h3>Unit 6 – Block-based Programming Project</h3></strong>
+  <p>Students will be introduced to block-based programming project using platforms like code.org or make code arcade. They will learn basic programming concepts, problem-solving skills, and creative design through hands-on activities and projects.</p>
+  <p>Additionally, students will begin learning Python and make simple programs using print, input output statements and selection (IF) statements</p>
+</div>
+
+
+</body>
+
+
+
+
+<div class ="footer">
+  <p>&copy; 2024-5 | Joshua Levy | <a href="https://nativecs.uk" target="_blank">Native CS UK</a> | <a href="https://github.com/nativeCS" target="_blank">GitHub</a> | <a href="https://replit.com/@nativecomputinguk" target="_blank">Replit</a> | <a href="https://www.credly.com/users/joshualevy23/badges" target="_blank">Teach Computing<a> | <a href="https://dev.to/joshualevy84/" target="_blank">.DEV</a> | <a href="https://app.datacamp.com/profile/joshualevy84" target="_blank">Datacamp</a> | <a href="https://nativenglish.uk" target="_blank">Native English UK</a></p>   
+  <a href="https://www.w3.org/WAI/WCAG2A-Conformance"
+   title="Explanation of WCAG 2 Level A Conformance">
+  <img height="32" width="88"
+       src="https://www.w3.org/WAI/WCAG22/wcag2.2A"
+       alt="Level A conformance,
+            W3C WAI Web Content Accessibility Guidelines 2.2">
+  <a href="http://www.w3.org/html/logo/">
+<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-semantics.png" width="100" height="32" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics"> <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+</a>
+
+</div>
+
+</html>
