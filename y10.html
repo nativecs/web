@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<!-- Next add HTML stylesheet in the header for adding CSS elements -->
+<head>
+<title>GCSE Year 10 - NativeCS</title>
+<link rel=“icon” href=”/images/favicon.ico” type=“image/x-icon”>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: scroll;
+  position: absolute;
+  overflow-x: hidden;
+  width: 100%;
+
+.topnav {
+  overflow: hidden;
+  background-color: #483d8b;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ff6600;
+  color: white;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ff6600;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+}
+.header {
+  padding: 150px; /* some padding */
+  text-align: center; /* center the text */
+  background-image: url("images/banner-year10.png");
+  background-position:bottom;
+  color: white; /* white text color */
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 40px;
+}
+
+.footer {
+  font-size: 12px;
+  position:sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+a:link {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+a:visited {
+  color: white;
+}
+
+div.page-content {
+  width: 100%;
+  max-width: 95%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+
+}
+
+div.page-content-1 {
+  width: 100%;
+  max-width: 95%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: auto;
+}
+
+div.page-content-2 {
+  width: 100%;
+  max-width: 95%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+</style>
+</head>
+<!-- Stylesheet should be included in the header section -->
+
+
+
+<body>
+<div class="header">
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a> 
+  <div class ="dropdown">
+    <button class="dropbtn">KS3</button>
+    <div class="dropdown-content">
+      <a href="y7.html">Year 7</a>
+      <a href="y8.html">Year 8</a>
+      <a href="y9.html">Year 9</a>
+    </div>
+  </div>
+
+  <div class ="dropdown">
+    <button class="dropbtn">GCSE</button>
+    <div class="dropdown-content">
+      <a href="y10.html">Year 10</a>
+      <a href="y11.html">Year 11</a>
+    </div>
+  </div>
+
+<div class ="dropdown">
+    <button class="dropbtn">Programming</button>
+    <div class="dropdown-content">
+      <a href="python.html">Python</a>
+      <a href="html.html">HTML</a>
+      <a href="css.html">CSS</a>
+      <a href="js.html">JavaScript</a>
+    </div>
+  </div>
+  <a href="ai.html">AI</a>
+  <a href="resources.html">Resources</a>
+</div>
+
+
+<div class ="page-content">
+<center><h2>J277 - GCSE Year 10 (OCR)</h2></center>
+<p><img src="images/y10-float.png" width="300px" height="300px" style="float:left" padding-right="30" class="image">
+<p>In Year 10, GCSE examination board is selected by the school, given below are the outline  of units in the OCR exam board, which students are expected to learn:</p>
+<strong><h3>1.1 Systems Architecture</h3></strong>
+<p><strong>The CPU: </strong>The Central Processing Unit (CPU) is the core component of a computer, responsible for executing program instructions and performing basic arithmetic, logic, control, and input/output operations. It serves as the brain of the computer, ensuring that tasks and programs run efficiently. The CPU's effectiveness is crucial for the overall performance of the computer system.</p>
+<P><strong>Von Neumann architecture: </strong>This is a fundamental design model for computers that uses a single memory space to store both instructions and data. This architecture operates through a cycle of fetching, decoding, and executing instructions sequentially. Key components of this architecture include the memory, processor, and system buses, which work together to transfer data and execute instructions efficiently.</P>
+<p><strong>CPU Components: </strong>The CPU comprises several essential components: the Arithmetic Logic Unit (ALU), which performs arithmetic and logical operations; the Control Unit (CU), which directs operations and manages instruction execution; and registers, which are small, fast storage locations for temporarily holding data and instructions. Additionally, cache memory enhances the CPU's performance by providing rapid access to frequently used data and instructions</p>
+<p><strong>CPU Characteristics: </strong>Various characteristics of CPUs significantly influence their performance. Higher clock speeds enable the CPU to execute more instructions per second, improving processing speed. Multiple cores allow for parallel processing, which enhances multitasking and handling of complex applications. Larger cache sizes facilitate quicker data access, boosting overall efficiency. Furthermore, different processor types, such as ARM and x86, offer varying levels of performance and efficiency based on their architectural design.</p>
+<strong><h3>1.2 Memory and 1.3 Storage</h3></strong>
+<p><strong>Primary memory: </strong>This refers to the memory directly accessible by the CPU, including RAM (Random Access Memory) and ROM (Read-Only Memory). RAM is volatile memory used for temporarily storing data and instructions that the CPU needs while performing tasks, enabling quick read and write operations. ROM, on the other hand, is non-volatile memory that stores essential system instructions, such as the computer's firmware, which remains intact even when the computer is powered off.</p>
+<p><strong>Secondary storage: </strong>It provides long-term data storage solutions, retaining data even when the computer is turned off. This type of storage includes hard disk drives (HDDs), solid-state drives (SSDs), and optical discs. HDDs are traditional magnetic storage devices offering large storage capacities at lower costs but with slower data access speeds compared to SSDs. SSDs use flash memory to provide faster data access and improved performance but are typically more expensive per gigabyte. Optical discs, such as CDs, DVDs, and Blu-ray discs, are used for distributing software, media, and backups.</p>
+<p><strong>Memory management: </strong>is a critical aspect of computer operation, involving the efficient allocation and deallocation of memory spaces to various programs and processes. The operating system plays a pivotal role in managing memory through techniques like paging and segmentation, ensuring that each program has the necessary memory resources while optimizing overall system performance. Virtual memory extends the apparent capacity of primary memory by using a portion of the secondary storage to simulate additional RAM, allowing computers to handle larger workloads and multitask more effectively.</p>
+<p><strong>Storage characteristics: </strong>such as capacity, speed, durability, and cost significantly influence the choice of storage devices for different applications. Capacity refers to the amount of data a storage device can hold, while speed determines how quickly data can be read from or written to the device. Durability affects the lifespan and reliability of the storage medium, with SSDs generally being more durable than HDDs due to the lack of moving parts. Cost considerations often balance these factors, as higher performance and greater durability typically come at a higher price. Understanding these characteristics helps in selecting the appropriate storage solutions for various computing needs.</p>
+<strong><h3>1.4 Wired and Wireless Networks</h3></strong>
+<p><strong>Types of Networks: </strong>Wired networks use physical cables, such as Ethernet, to connect devices, offering high reliability, speed, and security with minimal interference. They are commonly used in environments where stable and high-speed connections are critical, such as offices and data centers. In contrast, wireless networks use radio waves to connect devices without the need for physical cables, providing greater flexibility and mobility. Common wireless technologies include Wi-Fi and Bluetooth, which enable devices to connect to networks and each other within a certain range, though they can be more susceptible to interference and security vulnerabilities compared to wired networks.</p>
+<p><strong>Topology and Hardware: </strong>This significantly impacts its performance and efficiency. Common network topologies include star, mesh, and bus configurations, each with its advantages and disadvantages. For instance, a star topology connects all devices to a central hub, offering simplicity and ease of management but relying heavily on the hub's functionality. Essential network hardware components include routers, switches, and access points. Routers direct data between different networks, switches connect multiple devices within the same network, and access points enable wireless devices to join a wired network. Understanding the differences and applications of wired and wireless networks, along with their respective topologies and hardware, is crucial for designing and maintaining effective and efficient network systems.</p>
+<strong><h3>1.5 Network Topologies</h3></strong>
+<p><strong>Star, mesh and bus topology: </strong>The main types include star, mesh, and bus topologies. In a star topology, all devices are connected to a central hub or switch, making it easy to manage and troubleshoot but dependent on the hub's reliability. A mesh topology features devices interconnected with multiple pathways, enhancing redundancy and fault tolerance but increasing complexity and cost. The bus topology connects all devices along a single central cable, which is simple and cost-effective for small networks but can become slow and prone to collisions as more devices are added.</p>
+<p>Each topology has unique characteristics and is chosen based on specific network needs. Star topology is widely used in modern networks due to its simplicity and scalability, making it suitable for both small and large networks. Mesh topology is ideal for mission-critical applications requiring high availability and reliability, such as military and emergency services. Bus topology is less common today but still used in specific situations where network simplicity and low cost are prioritized. Understanding these topologies helps in designing efficient and effective networks tailored to organizational requirements.</p>
+<strong><h3>1.6 System Security</h3></strong>
+<p><strong>Authentication and Encryption: </strong>Authentication is a fundamental aspect of system security, verifying the identity of users and ensuring they have appropriate access privileges. This can involve passwords, biometric authentication, and multi-factor authentication methods. Authorization determines what actions users are allowed to perform within a system, restricting access to sensitive data and functionalities based on predefined rules and permissions. Additionally, encryption plays a crucial role in protecting data by converting it into a secure format that can only be deciphered with the correct decryption key, preventing unauthorized access and eavesdropping.</p>
+<p><strong>VPN and Intrusion: </strong>Another key element of system security is network security, which involves protecting networks and their infrastructure from unauthorized access, attacks, and vulnerabilities. This includes implementing firewalls to monitor and control incoming and outgoing network traffic, intrusion detection systems (IDS) to identify and respond to suspicious activities, and virtual private networks (VPNs) to establish secure connections over public networks. Regular software updates and patches are essential to address known vulnerabilities and weaknesses in system software, reducing the risk of exploitation by attackers. Physical security measures, such as locks, access control systems, and surveillance cameras, are also vital for safeguarding hardware and preventing unauthorized physical access to computer systems and data centers. By implementing these security measures and adopting a proactive approach to system security, organizations can mitigate risks and ensure the resilience of their computer systems against potential threats and attacks.</p>
+<strong><h3>1.7 Systems Software</h3></strong>
+<p><strong>Systems Software: </strong>Systems software is a critical component of computer systems, providing essential functionalities to manage hardware resources and facilitate the execution of applications. The operating system (OS) serves as the interface between users and the computer hardware, coordinating various tasks and managing resources such as memory, processors, and input/output devices. It provides features such as file management to organize and store data efficiently, device drivers to enable communication between hardware components and the operating system, and user interfaces to interact with the computer system. Additionally, the OS oversees process management, scheduling tasks and allocating resources to ensure efficient operation and multitasking capabilities, enhancing overall system performance and usability.</p>
+<p><strong>Utility Software: </strong>Another key element of systems software is utility software, which includes a range of tools and programs designed to perform specific tasks to enhance system functionality and efficiency. Antivirus software is essential for protecting computer systems from malware and malicious threats by scanning and removing malicious files and software, preventing potential damage and data loss. Disk utilities help optimize and maintain storage devices by performing tasks such as disk cleanup, defragmentation, and error checking, improving system performance and reliability. Backup software enables users to create backups of important data and system files, ensuring data integrity and facilitating disaster recovery in the event of hardware failures or data loss incidents. By leveraging utility software, users can optimize system performance, enhance security, and ensure the reliability of their computer systems.</p>
+<strong><h3>1.8 Ethical, legal, cultural and environmental concerns</h3></strong>
+<p><strong>Ethical Considerations: </strong>Addressing ethical, legal, cultural, and environmental concerns is paramount in the design, development, and use of computer systems. From an ethical standpoint, it's essential to ensure that technology is used responsibly and ethically, respecting privacy, autonomy, and human rights. This involves considering the potential impacts of technologies on individuals and society, such as the ethical implications of data collection, surveillance, and algorithmic decision-making. Additionally, promoting digital literacy and ethical awareness among users is crucial in fostering responsible and informed use of technology, empowering individuals to make ethical decisions and navigate ethical dilemmas in the digital age.</p>
+<p><strong>Legal Considerations: </strong>Legal considerations involve compliance with laws and regulations governing the use of technology and the protection of digital rights. This includes data protection laws, intellectual property rights, cybersecurity regulations, and regulations concerning the use of emerging technologies such as artificial intelligence and biometrics. Adhering to legal requirements helps mitigate legal risks, protect individuals' rights, and ensure accountability and transparency in the use of technology. Furthermore, understanding and respecting cultural diversity are essential in the development and deployment of technology, recognizing and accommodating cultural differences in values, beliefs, and practices. Finally, considering environmental impacts is crucial, with a focus on designing energy-efficient systems, minimizing electronic waste through responsible recycling and disposal practices, and promoting sustainable computing practices to reduce the environmental footprint of technology. By addressing these concerns, stakeholders can promote the responsible and sustainable use of technology while ensuring that it serves the best interests of individuals, society, and the environment.</p>
+
+</div>
+
+
+</body>
+
+
+
+
+<div class ="footer">
+  <p>&copy; 2024-5 | Joshua Levy | <a href="https://nativecs.uk" target="_blank">Native CS UK</a> | <a href="https://github.com/nativeCS" target="_blank">GitHub</a> | <a href="https://replit.com/@nativecomputinguk" target="_blank">Replit</a> | <a href="https://www.credly.com/users/joshualevy23/badges" target="_blank">Teach Computing<a> | <a href="https://dev.to/joshualevy84/" target="_blank">.DEV</a> | <a href="https://app.datacamp.com/profile/joshualevy84" target="_blank">Datacamp</a> | <a href="https://nativenglish.uk" target="_blank">Native English UK</a></p>   
+  <a href="https://www.w3.org/WAI/WCAG2A-Conformance"
+   title="Explanation of WCAG 2 Level A Conformance">
+  <img height="32" width="88"
+       src="https://www.w3.org/WAI/WCAG22/wcag2.2A"
+       alt="Level A conformance,
+            W3C WAI Web Content Accessibility Guidelines 2.2">
+  <a href="http://www.w3.org/html/logo/">
+<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-semantics.png" width="100" height="32" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics"> <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+</a>
+
+</div>
+
+
+</html>
